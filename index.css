@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.sliding-transition {
+    transition: ease-in-out 0.5s;
+}
+
 .slider--container {
     width: auto;
     background-color: #DAEEFF;
@@ -27,7 +31,6 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    transition: ease-in-out 0.4s;
 }
 
 .slider__item {
